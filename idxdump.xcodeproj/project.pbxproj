@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		64E006562932BAE300BEBA8F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64E006552932BAE300BEBA8F /* main.cpp */; };
+		64E0065E2932BB0300BEBA8F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64E0065C2932BB0300BEBA8F /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,9 @@
 
 /* Begin PBXFileReference section */
 		64E006522932BAE300BEBA8F /* idxdump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idxdump; sourceTree = BUILT_PRODUCTS_DIR; };
-		64E006552932BAE300BEBA8F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		64E0065C2932BB0300BEBA8F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		64E0065D2932BB0300BEBA8F /* strutil.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = strutil.hpp; sourceTree = "<group>"; };
+		64E0065F2932BB1700BEBA8F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		64E006492932BAE300BEBA8F = {
 			isa = PBXGroup;
 			children = (
+				64E0065F2932BB1700BEBA8F /* .gitignore */,
 				64E006542932BAE300BEBA8F /* idxdump */,
 				64E006532932BAE300BEBA8F /* Products */,
 			);
@@ -57,7 +60,8 @@
 		64E006542932BAE300BEBA8F /* idxdump */ = {
 			isa = PBXGroup;
 			children = (
-				64E006552932BAE300BEBA8F /* main.cpp */,
+				64E0065C2932BB0300BEBA8F /* main.cpp */,
+				64E0065D2932BB0300BEBA8F /* strutil.hpp */,
 			);
 			path = idxdump;
 			sourceTree = "<group>";
@@ -90,6 +94,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1410;
+				ORGANIZATIONNAME = "Charles Kerr";
 				TargetAttributes = {
 					64E006512932BAE300BEBA8F = {
 						CreatedOnToolsVersion = 14.1;
@@ -119,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64E006562932BAE300BEBA8F /* main.cpp in Sources */,
+				64E0065E2932BB0300BEBA8F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
